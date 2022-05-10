@@ -15,6 +15,7 @@ else
 		read input
 		echo **Seed is the 10 digits after your world name**
 		cat ~/.config/unity3d/IronGate/Valheim/worlds/$input.fwl
+		echo 
 		exit 1
 	fi
 fi
