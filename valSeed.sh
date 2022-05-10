@@ -3,10 +3,9 @@
 # a bash script to find out your valheim worlds and seeds
 
 echo
-echo Valheim world and seed reader
+echo Valheim world and seed reader for Linux.
 
 sleep 1
-
 echo
 
 echo Options:
@@ -14,11 +13,9 @@ echo
 
 echo 1. To see a list of your Valheim worlds.
 echo 2. To see the seed of your Valheim world.
-
 echo
 
 read -p "Option: " choice_var
-
 echo
 
 if [[ $choice_var == "1" ]]; then
@@ -26,7 +23,7 @@ if [[ $choice_var == "1" ]]; then
 	ls -1 ~/.config/unity3d/IronGate/Valheim/worlds
 else
 	if [[ $choice_var == "2" ]]; then
-		read -p "Which worlds seed do you want? " seed_var 
+		read -p "Which world seed do you want? " seed_var 
 		echo **Seed is the 10 digits after your world name**
 		cat ~/.config/unity3d/IronGate/Valheim/worlds/$seed_var.fwl
 		echo 
