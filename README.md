@@ -3,13 +3,13 @@ Description: Bash script to automate finding your Valheim world names and seed n
 
 Setup: 
   
-  git clone https://github.com/zbinx/valheim-seed-reader/blob/main/valSeed.sh
+  > git clone https://github.com/zbinx/valheim-seed-reader/blob/main/valSeed.sh
   
-  chmod +x valSeed.sh
+  > chmod +x valSeed.sh
  
 To run:
 
-  ./valSeed.sh
+   > ./valSeed.sh
   
   
 
